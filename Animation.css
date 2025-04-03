@@ -1,0 +1,46 @@
+.one {
+  box-sizing: border-box;
+  background: #5809d8;
+  border: 10px;
+  border-color: #ff1100;
+  border-style: solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation-name: ibrahim;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ibrahim {
+  0% {
+    background: blue;
+    width: 100px;
+    height: 100px;
+  }
+
+  25% {
+    background: aqua;
+    width: 200px;
+    height: 200px;
+  }
+  50% {
+    background: #ff1100;
+    width: 400px;
+    height: 400px;
+  }
+
+  75% {
+    background: violet;
+    width: 100px;
+    height: 100px;
+  }
+
+  100% {
+    background: green;
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,47 @@
+.two {
+  box-sizing: border-box;
+  background: gold;
+  border: 3px;
+  border-color: #ff1100;
+  border-style: solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  position: absolute;
+  animation-name: ibrahim;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ibrahim {
+  0% {
+    background: blue;
+    left: 0;
+    top: 0;
+  }
+
+  20% {
+    background: aqua;
+    left: 300px;
+    top: 0;
+  }
+
+  40% {
+    background: #ff1100;
+    left: 300px;
+    top: 300px;
+  }
+
+  75% {
+    background: violet;
+    left: 0;
+    top: 300px;
+  }
+
+  100% {
+    background: green;
+    left: 0;
+    top: 0;
+  }
+}

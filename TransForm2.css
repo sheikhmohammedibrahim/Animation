@@ -1,0 +1,21 @@
+.one {
+  box-sizing: border-box;
+  background: #5809d8;
+  border: 10px;
+  border-color: #ff1100;
+  border-style: solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: width 5s, height 5s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.one:hover {
+  transform: skew(-25deg);
+}
